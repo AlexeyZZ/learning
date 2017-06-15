@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{63B37849-7F3A-4AD6-889B-1BB6110812EF}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Tests/Goods.cs">
+    <Files>
+      <File FileName="Tests/Money.cs" Line="32" Column="56" />
+      <File FileName="Tests/Goods.cs" Line="13" Column="23" />
+      <File FileName="Tests/Program.cs" Line="15" Column="19" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Tests PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
