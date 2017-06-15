@@ -122,7 +122,11 @@ namespace FunWithStructure
             //Console.WriteLine("Invoke method with ref param");
             //Person.SendPersonByRef(ref per);
             //per.Display();
-
+//Person p = new Person(age:11,name:"Petya");
+//            p.Display();
+//            Person.SendAPersonByValue(p);
+//            p.Display();
+//            new Person(11, "oleg");
             //Console.WriteLine("----Nullable----");
             //NullableTypes nb = new NullableTypes();
             //int? i = nb.GetNumber();
@@ -140,12 +144,11 @@ namespace FunWithStructure
             //else
             //    Console.WriteLine("Bool does not have any value");
 
-            // in case when some nullable variable must have a value assigned then one of the possible way to assign this value is:
-            // using int d = x??10 -this mean that if x value is null than d will have 10 value otherwise x.value
+             //in case when some nullable variable must have a value assigned then one of the possible way to assign this value is:
+             //using int d = x ?? 10 - this mean that if x value is null than d will have 10 value otherwise x.value
             //int? x = null;
             int? x = 11;
             Console.WriteLine(x ?? 100);
-            
 
             Console.Read();
 
