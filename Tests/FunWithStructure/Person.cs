@@ -30,7 +30,10 @@ namespace FunWithStructure
             // in here we are trying to assigng new object to 'p' (we decided that we will have new object at the same memory address)
             // as a fact it imposible wile we are using 'value' type of arguments.
             //next query will not take affect!!!!
+            Console.WriteLine("-----");
             p = new Person(33, "Semen");
+            p.Display();
+            Console.WriteLine("-----");
         }
         public static void SendPersonByRef(ref Person p)
         {
