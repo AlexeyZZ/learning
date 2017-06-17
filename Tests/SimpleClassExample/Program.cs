@@ -10,6 +10,8 @@ namespace SimpleClassExample
     {
         static void Main(string[] args)
         {
+            Motorcycle m = new Motorcycle(11);
+            
             //creating new car
 
             Car c1 = new Car();

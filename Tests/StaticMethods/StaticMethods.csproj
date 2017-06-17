@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5312BE19-52C6-4C56-B67C-DF9493F7F083}</ProjectGuid>
+    <ProjectGuid>{FA9BEB70-82E8-4042-AFFE-2830CF6EC6A9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>SimpleClassExample</RootNamespace>
-    <AssemblyName>SimpleClassExample</AssemblyName>
+    <RootNamespace>StaticMethods</RootNamespace>
+    <AssemblyName>StaticMethods</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,10 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Car.cs" />
-    <Compile Include="Motorcycle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Teenager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
