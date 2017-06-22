@@ -11,14 +11,17 @@ namespace StaticMethods
         static void Main(string[] args)
         {
             Console.WriteLine("---Fun with static methods-----");
-            //executing static method with rundom message in a cicle
-            for (int i=0; i < 5; i++)
-            {
-                Console.WriteLine(Teenager.Complain()); 
-            }
+            ////executing static method with rundom message in a cicle
+            //for (int i=0; i < 5; i++)
+            //{
+            //    Console.WriteLine(Teenager.Complain()); 
+            //}
 
+            //Console.ReadLine();
+            Console.WriteLine($"{SavingAccount.currInterestRate=5}");
+            SavingAccount s1 = new SavingAccount(10);
+            
             Console.ReadLine();
-
 
         }
     }
