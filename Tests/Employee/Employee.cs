@@ -18,5 +18,9 @@ namespace Employee
         {
             Console.WriteLine($"Name:={empName}/n EmpId:={empId}/n Pay:={curPay}");
         }
+        public double GetBenefitCost()
+        {
+            return empBenefit.ComputePayDeduction();
+        }
     }
 }
