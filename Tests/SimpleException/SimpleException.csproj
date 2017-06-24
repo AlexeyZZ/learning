@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9F62C1FD-7EF0-40D1-9D6C-65B0F99BE467}</ProjectGuid>
+    <ProjectGuid>{83E38067-3912-4235-8B47-C48B1F114466}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Employee</RootNamespace>
-    <AssemblyName>Employee</AssemblyName>
+    <RootNamespace>SimpleException</RootNamespace>
+    <AssemblyName>SimpleException</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,13 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Employee.cs" />
-    <Compile Include="Employee.Internal.cs" />
-    <Compile Include="Manager.cs" />
+    <Compile Include="Car.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="PTSalesPerson.cs" />
-    <Compile Include="SalesPerson.cs" />
+    <Compile Include="Radio.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
