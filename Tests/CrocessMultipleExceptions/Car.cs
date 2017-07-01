@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SimpleException
+namespace ProcessMultipleExceptions
 {
     class Car
     {
@@ -39,6 +39,10 @@ namespace SimpleException
                 Console.WriteLine($"{PetName}is out of order");//car is broken
             else
             {
+                if (delta < 0)
+                {
+                    throw new ArgumentOutOfRangeException("delta", "Speed must be greater than zero");
+                }
                 CurrSpeed += delta;
                 if (CurrSpeed > MaxSpeed)
                 {

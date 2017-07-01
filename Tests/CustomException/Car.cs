@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SimpleException
+namespace CustomException
 {
     class Car
     {
@@ -45,12 +45,18 @@ namespace SimpleException
                     Console.WriteLine($"{PetName} is overheated");
                     CurrSpeed = 0;
                     CarIsDead = true;
-                    Exception ex = new Exception(String.Format($"the car was overheated!"));
-                    ex.HelpLink = "www.mail.ru";
-                    ex.Data.Add("TimeStamp", string.Format($"Date is:{DateTime.Now}"));
-                    throw ex;
+                    //using System.Exception
+                    //Exception ex = new Exception(String.Format($"the car was overheated!"));
+                    //ex.HelpLink = "www.mail.ru";
+                    //ex.Data.Add("TimeStamp", string.Format($"Date is:{DateTime.Now}"));
+                    //throw ex;
                     // this is a simple way of throwing exception
                     //throw new Exception(String.Format($"the car was overheated!"));
+
+                    //using custom Exception
+                    CarIsDeadException ex = new CarIsDeadException(string.Format($"{PetName} is overheated"), DateTime.Now, "You have a lead foot");
+                    ex.HelpLink = "www.figZnaet.ru";
+                    throw ex;
                 }
                 else
                     Console.WriteLine($"{PetName} speed is : {CurrSpeed}");
